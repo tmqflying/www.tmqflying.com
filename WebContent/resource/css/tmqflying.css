@@ -52,5 +52,23 @@ a {outline-style: none !important; /*remove the outline when selected.*/}
 /*footer style setting*/
 .footer {height: auto;}
 .footer .update-time {
-	font-family: Chiller,Gabriola,Candara,Constantia,DaunPenh,"Freestyle Script"
+	font-family: Chiller,Gabriola,Candara,Constantia,DaunPenh,"Freestyle Script";
+	float: right;
+}
+
+
+/*slide background settings*/
+.slide-bg-1 {
+	background: #ddd url(/resource/imgs/slidea.jpg) no-repeat center;
+}
+.slide-bg-2 {
+	background: #ddd url(/resource/imgs/slideb.jpg) no-repeat center;
+}
+.slide-bg-3 {
+	background: #ddd url(/resource/imgs/slidec.jpg) no-repeat center;
+}
+
+/*border setting*/
+.border-tmq{
+	border: 4px solid rgba(240,240,240,0.7);
 }
