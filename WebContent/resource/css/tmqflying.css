@@ -79,6 +79,9 @@ a {outline-style: none !important; /*remove the outline when selected.*/}
 
 
 /*slide background settings*/
+.cus-carousel .item {
+	background-color: #eee;
+}
 .slide-bg-1 {
 	background: #ddd url(/resource/imgs/slidea.jpg) no-repeat center;
 }
@@ -96,3 +99,6 @@ a {outline-style: none !important; /*remove the outline when selected.*/}
 
 
 /*common setting*/
+.cus-bg-articles {background: #eee url(/resource/imgs/jpbtna.jpg) no-repeat center; }
+.cus-bg-books {background: #eee url(/resource/imgs/jpbtnb.jpg) no-repeat center; }
+.cus-bg-tech {background: #eee url(/resource/imgs/jpbtnc.jpg) no-repeat center; }
