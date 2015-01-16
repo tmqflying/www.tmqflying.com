@@ -41,8 +41,10 @@
         	setTimeout(function(){
         		document.getElementById("info").innerHTML = countdown;
         		countdown--;
-        		if (countdown < 0)
+        		if (countdown < 0) {
+	        		countdown = 3;
 	        		location.href="/";
+        		}
         		home();
     		},1000); // 3秒后自动跳转至首页
     	}
