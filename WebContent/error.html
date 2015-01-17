@@ -42,9 +42,10 @@
         		if (countdown < 0) {
 	        		countdown = 3;
 	        		location.href="http://www.tmqflying.com/";
+        		} else {
+	        		document.getElementById("info").innerHTML = countdown;
+	        		countdown--;
         		}
-        		document.getElementById("info").innerHTML = countdown;
-        		countdown--;
         		home();
     		},1000); // 3秒后自动跳转至首页
     	}
