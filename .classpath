@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/fly"/>
-	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
-</classpath>
